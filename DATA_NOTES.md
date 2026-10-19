@@ -36,3 +36,7 @@ Retrieval date: 19 October 2026. [NIST introduction](https://physics.nist.gov/Ph
 ## Checks
 
 All 93 target states pass numeric/input checks. Tests cover exact tabulated channel ratios, missing data, zero denominators, no extrapolation, optional interpolation, current edited inputs, published-marker clearing on target change, logarithmic plots with empty data ranges, and ratio/data/input export generation. Initial NH3/H2O BEB ratio at 22 eV is about 1.7127684; IPA m/z45/m/z43 at 50 eV is 6/0.94 = 6.3829787. Acetone/IPA selected-ion sums at 86 eV give 7.58/8.417 = 0.9005584.
+
+
+## IPA total ionization: Hudson et al. (2003)
+48 original tabulated total-ionization measurements from Table 1, p. 3164 (16–207 eV), DOI: https://doi.org/10.1039/B304456D. Units Å². Peak 10.24 Å² at 93 eV. Table 2 BEB peak: 9.48 Å², −7.4% versus experiment. No orbital binding/kinetic-energy table is provided. Total data are separate from Vacher selected-ion sums. Reproducibility better than ±2% is not absolute uncertainty; authors discuss a previously determined ±4% maximum instrument error, about 1.2 eV electron energy FWHM, and increased near-threshold uncertainty. Values transcribed from PDF text and visually checked against the 2-PrOH column. Available automatically on the main plot, in Ratios, and via Published points CSV.
